@@ -1,30 +1,29 @@
-body {
-
-  font-family: 'Source Sans Pro ', sans-serif;
+* {
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: 'Source Sans Pro ', sans-serif;
   background: #fff;
 }
-
-
-
 a, a:hover {
 text-decoration: none;
 }
 ol, ul {
   list-style: none;
 }
-
 #header {
   position: absolute;
   top:22px;
   width: 100%;
-
+  z-index: 2;
 }
 .container {
-  width: 940px;
-  margin: 0 auto;
 
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  /*border: solid blue 2px;*/
 }
 .logo {
   margin-right: 15px;
@@ -39,16 +38,15 @@ line-height: 68px;
 .nav {
   float: right;
   font-size: 16px;
-  padding-top: 13px;
+  padding-top: 18px;
 }
 .nav li {
   float: left;
   margin-left: 50px;
-  
+  line-height: 40px;
 }
 .name a, .nav li a {
   color: white;
-  
 }
 .nav li a:hover {
   color: #fc635e;
@@ -56,8 +54,67 @@ line-height: 68px;
   padding-bottom: 7px;
 }
 #home {
+  position: relative;
   height: 765px;
-  background-image: url("images/home-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("images/home-bg.jpg") no-repeat center;
+
+  text-align: center;
+  color: white;
+  overflow: hidden;
 }
+#home .container {
+  padding-top: 282px;
+}
+#home h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+#home h3 {
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 45px;
+}
+
+#home span {
+  color: #fc635e;
+}
+.btn {
+  display: inline-block;
+  line-height: 55px;
+  font-size: 24px;
+   background: transparent;
+color: #fc635e;
+ width: 204px;
+ height: 55px;
+ border: 2px solid #fc635e;
+ border-radius: 7px;
+   
+}
+.btn:hover {
+color: white;
+border: 2px solid white;
+}
+
+#mouse {
+  display: inline-block;
+
+  position: relative;
+
+}
+#mouse img {
+  position: absolute;
+  left: 110px;
+  top: -60px;
+}
+
+
+.slider {
+ 
+   position: absolute;
+   bottom: 26px;
+    width: 100%;
+
+
+}
+
