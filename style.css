@@ -182,7 +182,7 @@ color: #c5c5c5;
   font-weight: 300;
 color: #adadad;
 }
-#slider2 {
+.slider2 {
   margin-top: 40px;
 }
 /*SECTION 3*/
@@ -204,4 +204,35 @@ background: url("images/section3-bg.jpg") no-repeat center;
 }
 #section3 span {
 color: #fc635e;
+}
+
+/*SECTION 4*/
+#section4 {
+  position: relative;
+min-height: 840px;
+text-align: center;
+}
+
+#section4 h2 {
+  display: inline-block;
+  margin-top: 47px;
+  font-size: 28px;
+  color: #fc635e;
+  border-bottom: solid 1px #adadad;
+  padding-bottom: 7px;
+}
+#section4 h2 span {
+  color: #868686;
+}
+#section4 h4 {
+  margin-top: 16px;
+  margin-bottom: 55px;
+  display: inline-block;
+max-width: 550px;
+font-size: 20px;
+font-weight: 300;
+color: #c5c5c5;
+}
+#section4 .slider2 {
+  margin-top: 30px;
 }
