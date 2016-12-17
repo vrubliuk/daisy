@@ -87,11 +87,11 @@ margin-bottom: 45px;
   font-size: 24px;
    background: transparent;
 color: #fc635e;
- width: 204px;
+  width: 210px;
  height: 55px;
  border: 2px solid #fc635e;
  border-radius: 7px;
-   
+   font-weight: 300;
 }
 .btn:hover {
 color: white;
@@ -289,10 +289,11 @@ text-align: center;
   font-size: 24px;
    background: #fc635e;
 color: white;
- width: 204px;
+ width: 210px;
  height: 55px;
  border: 2px solid #fc635e;
  border-radius: 7px;
+ font-weight: 300;
    
 }
 .btn2:hover {
@@ -392,4 +393,43 @@ text-align: center;
   margin-top: 110px;
 }
 
+/*SECTION 8*/
+#section8 .container {
+  max-width: 942px;
+   min-height: 845px;
+   /*border: solid blue 2px;*/
+   text-align: center;
+}
+
+#section8 .sectionTitle {
+  margin-bottom: 40px;
+}
+.menuSection8 {
+  border-top: solid #adadad 1px;
+  border-bottom: solid #adadad 1px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.menuSection8 span {
+  padding-right: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+}
+.menuSection8 span:last-child {
+  padding-right: 0px;
+}
+.menuSection8 span:nth-child(odd) {
+  color: #fc635e;
+}
+.menuSection8 span:nth-child(even) {
+  color: #adadad
+}
+#section8 img {
+  margin: 4px;
+}
+#section8 .btn2 {
+  margin: 0 auto;
+  margin-top: 55px;
+}
 
