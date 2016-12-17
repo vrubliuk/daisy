@@ -311,6 +311,7 @@ background: transparent;
 
 .brick {
   margin-left: 45px;
+  margin-right: 10px;
   height: 39px;
   width: 10px;
   background-color: #fc635e;
@@ -322,7 +323,7 @@ background: transparent;
   color: #868686;
 text-align: left;
 line-height: 40px;
- 
+
 }
 .article p {
   margin-top: 5px;
@@ -339,11 +340,45 @@ line-height: 40px;
   position: relative;
 min-height: 570px;
 text-align: center;
+border: solid blue 2px;
+}
+#section6 .container {
+  max-width: 1260px;
+  min-height: 570px;
+ 
+}
+#section6 .articleContainer, #section6 .imageContainer {
+  margin-top: 110px;
+}
+#section6 .article {
+  margin-top: 20px;
+}
 
+#section6 p {
+  text-align: right;
 }
-#section6 .slider2 {
-  margin-top: 30px;
+
+#section6 .brick {
+  margin-left: 10px;
+  margin-right: 45px;
+  float: right;
+  text-align: right;
 }
+
+#section6 .articleTitle {
+  text-align: right;
+  border: solid blue 2px;
+}
+
+#section6 .btn2 {
+   float: right;
+  margin-left: 0px;
+  margin-right: 45px;
+}
+
+
+
+
 
 /*SECTION 7*/
 #section7 {
@@ -355,9 +390,7 @@ text-align: center;
 #section7 .container {
   background: #f2f2f2;
   max-width: 1260px;
-}
-#section7 .slider2 {
-  margin-top: 30px;
+ 
 }
 
 
