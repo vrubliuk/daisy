@@ -240,7 +240,7 @@ color: #c5c5c5;
 #section5 {
   position: relative;
 text-align: center;
-border: solid blue 2px;
+/*border: solid blue 2px;*/
 
 }
 #section5 .container {
@@ -268,17 +268,17 @@ border: solid blue 2px;
 .slider3{
   bottom: 10px;
   position: absolute;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
   width: 100%;
 }
 
 .articleContainer {
   display: inline-block;
-  border: solid red 2px;
+  /*border: solid red 2px;*/
   width:506px;
 }
 .imageContainer {
-  border: solid red 2px;
+  /*border: solid red 2px;*/
   vertical-align: top;
   display: inline-block;
 }
@@ -306,7 +306,7 @@ background: transparent;
   max-width: 390px;
   display: inline-block;
   margin-bottom: 30px;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
 }
 
 .brick {
@@ -338,9 +338,8 @@ line-height: 40px;
 /*SECTION 6*/
 #section6 {
   position: relative;
-min-height: 570px;
 text-align: center;
-border: solid blue 2px;
+/*border: solid blue 2px;*/
 }
 #section6 .container {
   max-width: 1260px;
@@ -367,7 +366,7 @@ border: solid blue 2px;
 
 #section6 .articleTitle {
   text-align: right;
-  border: solid blue 2px;
+  /*border: solid blue 2px;*/
 }
 
 #section6 .btn2 {
@@ -375,9 +374,6 @@ border: solid blue 2px;
   margin-left: 0px;
   margin-right: 45px;
 }
-
-
-
 
 
 /*SECTION 7*/
@@ -390,8 +386,10 @@ text-align: center;
 #section7 .container {
   background: #f2f2f2;
   max-width: 1260px;
- 
+   min-height: 570px;
 }
-
+#section7 .articleContainer, #section7 .imageContainer {
+  margin-top: 110px;
+}
 
 
