@@ -395,7 +395,7 @@ text-align: center;
 
 /*SECTION 8*/
 #section8 .container {
-  max-width: 942px;
+  max-width: 944px;
    min-height: 845px;
    /*border: solid blue 2px;*/
    text-align: center;
@@ -433,3 +433,34 @@ text-align: center;
   margin-top: 55px;
 }
 
+/*SECTION 9*/
+#section9 .container {
+  background: #f2f2f2;
+  max-width: 1260px;
+   min-height: 575px;
+   /*border: solid blue 2px;*/
+   text-align: center;
+}
+.team {
+  margin-top: 10px;
+  display: inline-block;
+  height: 240px;
+  width: 260px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 200;
+}
+.team img {
+  margin: 9px;
+}
+.team h3 {
+  font-size: 28px;
+  color: #fc635e;
+}
+.team h3 span {
+  color: #565656;
+}
+.team p {
+  font-size: 20px;
+  color: #808080;
+}
