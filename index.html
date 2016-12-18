@@ -4,8 +4,6 @@
   <title>Daisy</title>
   <link rel="icon" href="images/logo.png">
   <link href="style.css" rel="stylesheet">
-
-  <!--remove extra fonts later-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
     rel="stylesheet">
 </head>
@@ -32,9 +30,7 @@
     <div id="home">
       <div class="container">
         <h1><span>CLIENTS</span> IN YOUR BUSINESS</h1>
-
         <h3>Your clients on the internet. Learn how to receive them.</h3>
-
         <div class="btn"> I want clients</div>
         <br>
         <div id="mouse">
@@ -50,7 +46,6 @@
       <div class="container">
         <h2> <span>WHAT CAN</span> YOU RECEIVE?</h2>
         <br>
-
         <h4>Daisy is sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet maauris. Morbi accumsan
           ipsum
         </h4>
@@ -59,7 +54,6 @@
           <img src="images/clients.png">
           <h3>CLIENTS</h3>
           <div class="breakLine"></div>
-
           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</p>
         </div>
         <div class="services">
@@ -245,53 +239,65 @@
       </div>
     </div>
 
-     <div id="section10">
+    <div id="section10">
       <div class="container">
-        <img id="quotes" src="images/10-1.png" >
+        <img id="quotes" src="images/10-1.png">
         <br>
-
         <div class="photoInfo">
-          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
+            quis bibendum auctor, nisi elit consequat</p>
         </div>
-
         <div class="photoImage">
           <img src="images/10-2.png">
-        
         </div>
-        
         <div class="photoName">
-           <h3>Alan <span> Richman </span> </h3>
-      
+          <h3>Alan <span> Richman </span> </h3>
           <p>CEO of Romashka</p>
         </div>
-<br>
-<br>
-<img class="arrow" src="images/10-3.png" >
-<img class="arrow" src="images/10-4.png" >
-      
-      <div class="beforeSlider"></div>
-        <!--<img id="over_map"  src="images/label.png">-->
+        <br>
+        <br>
+        <img class="arrow" src="images/10-3.png">
+        <img class="arrow" src="images/10-4.png">
+        <div class="beforeSlider"></div>
       </div>
     </div>
 
-
-  <div id="sectionLable" >
-        <img id="over_map"  src="images/label.png">
+    <div id="sectionLable">
+      <img id="over_map" src="images/label.png">
     </div>
 
-<div id="section11">
-   <div id="map"></div>
+    <div id="section11">
+      <div id="map"></div>
+    </div>
 
-</div>
-
-
-
+    <div id="section12">
+      <div class="container">
+        <img src="images/logo-12.png">
+        <span>Daisy</span>
+      </div>
+    </div>
   </div>
-  <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaM_FBO3lP-dmdFSDyiZca66SNLEdpRKk&callback=initMap">
+
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaM_FBO3lP-dmdFSDyiZca66SNLEdpRKk&callback=initMap">
 </script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
-  <script src="js.js"></script>
+
+<script>
+  function initMap() {
+    var florida = { lat: 30.284061, lng: -81.394860 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: florida
+    });
+    var marker = new google.maps.Marker({
+      position: florida,
+      map: map
+    });
+  }
+  window.onload = function () {
+    initMap();
+  };
+</script>
 </body>
 
 </html>
