@@ -464,3 +464,90 @@ text-align: center;
   font-size: 20px;
   color: #808080;
 }
+
+/*SECTION 10*/
+#section10 .container {
+  max-width: 1260px;
+   min-height: 645px;
+
+   text-align: center;
+}
+
+#quotes {
+  margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.photoInfo {
+    display: inline-block;
+    width: 360px;
+     font-size: 15px;
+     font-weight: 300;
+     color: #a1a1a1;
+     text-align: right;
+  
+     margin-left: 40px;
+     margin-right: 40px;
+     /*margin-top:60px;*/
+     margin-bottom: 60px;
+}
+
+.photoImage {
+  vertical-align: top;
+    display: inline-block;
+
+}
+.photoName {
+      display: inline-block;
+width: 360px;
+text-align: left;
+
+margin-left: 40px;
+     margin-right: 40px;
+     margin-top:60px;
+     /*margin-bottom: 60px;*/
+}
+
+.photoName h3 {
+  font-size: 28px;
+  color: #fc635e;
+  margin-bottom: 5px;
+}
+.photoName span {
+   color: #808080;
+}
+.photoName p {
+  font-size: 20px;
+  color: #808080;
+}
+
+.arrow {
+  margin: 12px;
+}
+#section10 .beforeSlider {
+  height: 130px;
+}
+
+/*SECTION LABLE*/
+#sectionLable {
+  margin-top: -122px;
+}
+
+/*SECTION 11*/
+ #section11 { 
+   margin-top: 122px;
+  }
+#map {
+  margin-left: auto;
+  margin-right: auto;
+   max-width: 1260px;
+   min-height: 345px;
+ }
+
+#over_map { 
+    position: absolute;
+   z-index: 999; 
+   left: 0;
+  right: 0;
+  margin: 0 auto;
+   }
